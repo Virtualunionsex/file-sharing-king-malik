@@ -1,4 +1,4 @@
-# File-Sharing-Ayiin4
+# FsbKay5
 
 Bot Telegram untuk menyimpan Posting atau File yang dapat Diakses melalui Link Khusus.
 Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.. 😇.
@@ -22,7 +22,7 @@ Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.. 😇.
 #
 ## Installation
 ### 𝗗𝗲𝗽𝗹𝗼𝘆 𝗼𝗻 𝗛𝗲𝗿𝗼𝗸𝘂
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AyiinXd/File-Sharing-Ayiin4)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kayzu02/fsb5)
 #### 𝗗𝗲𝗽𝗹𝗼𝘆 𝗼𝗻 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://risman.vercel.app/file-deploy.html)</br>
 
