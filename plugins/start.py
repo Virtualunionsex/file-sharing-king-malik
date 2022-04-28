@@ -115,17 +115,20 @@ async def start_command(client: Client, message: Message):
                 pass
     else:
         buttons = [
-            [InlineKeyboardButton("🔅 ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ 🔅", callback_data="about")],
+            [InlineKeyboardButton("• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about")],
             [
-                InlineKeyboardButton("♻️𝗖𝗛𝗔𝗡𝗡𝗘𝗟♻️", url=client.invitelink),
-                InlineKeyboardButton("♻️𝗚𝗥𝗢𝗨𝗣♻️", url=client.invitelink2),
+                InlineKeyboardButton("𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=client.invitelink),
+                InlineKeyboardButton("𝗚𝗥𝗢𝗨𝗣", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton("♻️𝗖𝗛𝗔𝗡𝗡𝗘𝗟♻️", url=client.invitelink3),
-                InlineKeyboardButton("♻️𝗚𝗥𝗢𝗨𝗣♻️", url=client.invitelink4), 
+                InlineKeyboardButton("𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=client.invitelink3), 
+            ],
+            [
+                InlineKeyboardButton("𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=client.invitelink4),
+                InlineKeyboardButton("𝗚𝗥𝗢𝗨𝗣", url=client.invitelink5), 
             ],  
             [
-                InlineKeyboardButton("🔅 ᴛᴜᴛᴜᴘ 🔅", callback_data="close"),
+                InlineKeyboardButton("• ᴛᴜᴛᴜᴘ •", callback_data="close"),
             ],
         ]
         await message.reply_text(
@@ -152,19 +155,22 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("♻️𝗖𝗛𝗔𝗡𝗡𝗘𝗟♻️", url=client.invitelink), 
-            InlineKeyboardButton("♻️𝗚𝗥𝗢𝗨𝗣♻️", url=client.invitelink2),
+            InlineKeyboardButton("𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=client.invitelink), 
+            InlineKeyboardButton("𝗚𝗥𝗢𝗨𝗣", url=client.invitelink2),
         ],
         [
-            InlineKeyboardButton("♻️𝗖𝗛𝗔𝗡𝗡𝗘𝗟♻️", url=client.invitelink3), 
-            InlineKeyboardButton("♻️𝗚𝗥𝗢𝗨𝗣♻️", url=client.invitelink4),
+            InlineKeyboardButton("𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=client.invitelink3),
+        ], 
+        [
+            InlineKeyboardButton("𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=client.invitelink4), 
+            InlineKeyboardButton("𝗚𝗥𝗢𝗨𝗣", url=client.invitelink5),
         ],
     ]
     try:
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text="🔅ᴄᴏʙᴀ ʟᴀɢɪ🔅",
+                    text="• ᴄᴏʙᴀ ʟᴀɢɪ •",
                     url=f"https://t.me/{client.username}?start={message.command[1]}",
                 )
             ]
