@@ -15,6 +15,7 @@ from config import (
     FORCE_SUB_CHANNEL,
     FORCE_SUB_GROUP,
     FORCE_SUB_CHANNEL1,
+    FORCE_SUB_CHANNEL2,
     FORCE_SUB_GROUP1,
     LOGGER,
     OWNER,
@@ -100,7 +101,7 @@ class Bot(Client):
                     f"Silakan periksa kembali var FORCE_SUB_GROUP1 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Group Saat Ini: {FORCE_SUB_GROUP}"
                 )
                 self.LOGGER(__name__).info(
-                    "\nBot Berhenti. Gabung Group https://t.me/AyiinXdSupport untuk Bantuan"
+                    "\nBot Berhenti. Gabung Group https://t.me/KayzuSupport untuk Bantuan"
                 )
                 sys.exit()
         try:
@@ -120,7 +121,7 @@ class Bot(Client):
 
         self.set_parse_mode("html")
         self.LOGGER(__name__).info(
-            f"[🔥 BERHASIL DIAKTIFKAN! 🔥]\n\nBOT Dibuat oleh @{OWNER}\nJika @{OWNER} Membutuhkan Bantuan, Silahkan Tanyakan ke https://t.me/AyiinXdSupport"
+            f"[🔥 BERHASIL DIAKTIFKAN! 🔥]\n\nBOT Dibuat oleh @{OWNER}\nJika @{OWNER} Membutuhkan Bantuan, Silahkan Tanyakan ke https://t.me/KayzuSupport"
         )
         self.username = usr_bot_me.username
 
