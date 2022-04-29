@@ -6,8 +6,8 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/Kayzu02/fsb5",
-  "logo": "https://telegra.ph/file/21bca0a64032cd5b23b3c.jpg",
+  "repository": "https://github.com/Virtualunionsex/file-sharing-king-malik",
+  "logo": "https://telegra.ph/file/58dd7794129a362be7b0f.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
@@ -15,7 +15,7 @@
     },
     "OWNER": {
       "description": "Masukan Username Telegram untuk Owner BOT [ Jangan Pake @ ]",
-      "value": "Kayxzy"
+      "value": "kingmalik"
     },
     "OWNER_ID": {
       "description": "Masukan User ID Telegram untuk Owner BOT",
@@ -71,12 +71,12 @@
     },
     "CHANNEL":{
       "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "KayXChannel",
+      "value": "kingmalikchannel",
       "required": false
     },
     "GROUP":{
       "description": "Masukan Username dari Group anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "KayzuSupport",
+      "value": "kingmaliksupport",
       "required": false
    } 
   },
